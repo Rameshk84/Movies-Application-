@@ -1,0 +1,2870 @@
+/* SIGNIN CSS  */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+*:not(
+    .swal-modal,
+    .watching,
+    .user-data,
+    .user-name,
+    .signout,
+    .poster,
+    .empty,
+    .search-data,
+    .my-list,
+    .movie-tab,
+    .list-name,
+    .new-title01,
+    .new-title02,
+    .new-title03,
+    .new-title04,
+    .new-left01,
+    .new-left02,
+    .new-left03,
+    .new-left04,
+    .movies-category-02,
+    .movies-category-03,
+    .movies-category-04,
+    .new-right01,
+    .new-right02,
+    .new-right03,
+    .new-right04,
+    .new-leftbtn-01,
+    .new-left02,
+    .new-leftbtn-02,
+    .new-leftbtn-03,
+    .new-leftbtn-04,
+    .new-rightbtn-01,
+    .new-rightbtn-02,
+    .new-rightbtn-03,
+    .new-rightbtn-04,
+    .logo-anchor,
+    .movies-category-01,
+    .movie-all-data2,
+    .search-movies,
+    .list-movies,
+    .all-dataa,
+    .movies-name,
+    .navbar-4,
+    .search-bar,
+    .search-white,
+    .c-title,
+    .left-scroll,
+    .left-scroll2,
+    .left-scroll3,
+    .left-scroll4,
+    .left-scroll5,
+    .left-btn,
+    .left-btn2,
+    .left-btn3,
+    .left-btn4,
+    .left-btn5,
+    .right-scroll,
+    .right-scroll2,
+    .right-scroll3,
+    .right-scroll4,
+    .right-scroll5,
+    .right-btn,
+    .right-btn2,
+    .right-btn3,
+    .right-btn4,
+    .right-btn5,
+    .in-data,
+    .movies-section,
+    .now-playing,
+    .trending-movies,
+    .movie-category1,
+    .movie-category2,
+    .movie-category3,
+    .movie-category4,
+    .movie-category5,
+    .category-lists,
+    li,
+    .right-content,
+    .search-icon,
+    .search-img,
+    .account,
+    .account-img,
+    .main-logo,
+    .bg-main-data,
+    .play-icon,
+    .avatar-name,
+    .play1,
+    .movie-logo,
+    .avatar,
+    .browse-page,
+    .swal-icon,
+    .swal-icon--success__ring,
+    .swal-icon--success__hide-corners,
+    .swal-icon--success__line,
+    .swal-icon--success__line--long,
+    .swal-icon--success__line,
+    .swal-icon--success__line--tip,
+    .swal-icon--warning__dot,
+    .swal-icon--warning,
+    .swal-icon--warning__body,
+    .swal-overlay,
+    .swal-overlay--show-modal,
+    .swal-title,
+    .swal-text,
+    .swal-footer,
+    .swal-button-container,
+    .swal-button,
+    .swal-button--confirm,
+    .swal-button__loader,
+    b,
+    .container,
+    .browse,
+    h3,
+    .btn,
+    .mssg,
+    .final-email,
+    .final-password,
+    .signin-button,
+    .signin-btn,
+    .signin-btn2,
+    .signin-link,
+    .signin-link2,
+    .error-message2,
+    .start-btn,
+    .start-link,
+    .acc1,
+    .acc1-data,
+    .acc1-icon,
+    .acc1-item,
+    .acc2,
+    .acc2-data,
+    .acc2-icon,
+    .acc2-item,
+    .acc3,
+    .signin-submit,
+    .acc3-data,
+    .acc3-icon,
+    .acc3-item,
+    .right-arrow,
+    .Netflix-logo3,
+    .center-content,
+    .signin-txt,
+    .signin-link3,
+    .bg-image,
+    .middle-content,
+    .middle-content2,
+    .content-innerData,
+    .content-innerData2,
+    .navbar-3,
+    .mid-head,
+    .mid-head2,
+    .mid-desc,
+    .mid-desc2,
+    .next,
+    .next-btn,
+    .next2,
+    .next-btn2,
+    .logo3,
+    .steps,
+    .steps2,
+    .break,
+    .bg-back2,
+    .movie-all-data,
+    .movie-title,
+    .top-movies,
+    .anime1-movies,
+    .top-india-movies,
+    .two-buttons,
+    .extra-data,
+    .match,
+    .rating,
+    .HD,
+    .movie-desc,
+    .circle-play,
+    .add-list
+  ) {
+  margin: 0;
+  padding: 0;
+  background: rgb(0, 0, 0, 0.5) url("../img/BG3.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.container,
+h3,
+.btn {
+  background-color: white;
+}
+
+h3 {
+  margin: 0px;
+}
+
+.error-message {
+  color: #b15010;
+  font-family: sans-serif;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 72px;
+  margin-top: 8px;
+  max-width: 65%;
+}
+
+.error-message2 {
+  color: #b15010;
+  font-family: sans-serif;
+  font-size: 15px;
+  text-align: left;
+  margin-top: 8px;
+  max-width: 65%;
+}
+
+.navbar {
+  display: flex;
+  justify-content: left;
+}
+
+.Netflix-logo,
+.Netflix-logo2 {
+  width: 168px;
+  margin-top: 23px;
+  margin-left: 58px;
+  cursor: pointer;
+}
+.Netflix-logo3 {
+  width: 168px;
+  cursor: pointer;
+  margin-top: 6px;
+  margin-left: 58px;
+}
+
+.main-page {
+  display: flex;
+  justify-content: center;
+}
+
+.container1 {
+  display: flex;
+  width: 450px;
+  height: 630px;
+  color: white;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.82);
+  border-radius: 7px;
+  justify-content: center;
+  align-content: center;
+}
+
+.signin-page:not(.signin-button, .signin-btn, .signin-btn2) {
+  background-color: rgba(0, 0, 0, 0.82);
+}
+
+.signin-head {
+  background-color: rgba(0, 0, 0, 0.82);
+  text-align: center;
+  font-size: 32px;
+  font-family: sans-serif;
+  width: 290px;
+}
+
+.email,
+.password,
+.remember,
+.need-help,
+.help-section,
+.error-message,
+.new-to-netflix,
+.new-to-netflix > a,
+.new-to-netflix > p,
+.signup-now {
+  background-color: rgba(0, 0, 0, 0.82);
+}
+
+.email-inp,
+.password-inp {
+  height: 38px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  width: 300px;
+  padding: 8px;
+  border-radius: 4px;
+  background: #333 !important;
+  margin-top: 30px;
+}
+
+input[type="text"] {
+  border: none;
+  outline: none;
+}
+
+input[type="email"] {
+  border: none;
+  outline: none;
+}
+
+input[type="password"] {
+  border: none;
+  outline: none;
+}
+
+.signin-button {
+  cursor: pointer;
+  width: 310px;
+  border: none;
+  padding: 16px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: sans-serif;
+  border-radius: 3px;
+  color: white;
+  background-color: #e50914 !important;
+}
+
+.signin-button:hover {
+  background-color: #a60911 !important;
+}
+
+.help-section {
+  margin-top: 25px;
+  font-family: sans-serif;
+  font-size: 13px;
+  color: #b3b3b3;
+  display: flex;
+  justify-content: space-around;
+}
+
+.remember {
+  display: flex;
+  align-items: center;
+}
+
+input.check {
+  width: 18px;
+  height: 18px;
+  margin-right: 10px;
+}
+
+.new-to-netflix {
+  display: flex;
+  font-family: sans-serif;
+  justify-content: left;
+  margin-left: 69px;
+  margin-top: 68px;
+  font-size: 18px;
+}
+
+.new-to-netflix > p {
+  color: #737373;
+}
+
+.signin-submit {
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.signup-now {
+  color: white !important;
+  margin-left: 6px;
+}
+
+.mssg {
+  color: #b70000;
+  position: relative;
+  background-color: white;
+  top: 20px;
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+/* Media Queries */
+
+@media (max-width: 740px) {
+  *:not(
+      .bg-main-data,
+      .swal-modal,
+      .user-data,
+      .user-name,
+      .signout,
+      .empty,
+      .new-leftbtn-01,
+      .new-rightbtn-01,
+      .new-left01,
+      .new-left02,
+      .my-list,
+      .movie-tab,
+      .movies-category-02,
+      .new-left02,
+      .new-left03,
+      .new-left04,
+      .new-right02,
+      .new-right03,
+      .new-right04,
+      .new-title01,
+      .new-title02,
+      .new-title03,
+      .new-title04,
+      .new-leftbtn-02,
+      .new-leftbtn-03,
+      .new-leftbtn-04,
+      .new-rightbtn-02,
+      .new-rightbtn-01,
+      .new-rightbtn-03,
+      .new-rightbtn-04,
+      .list-name,
+      .logo-anchor,
+      .movies-category-01,
+      .movies-category-03,
+      .movies-category-04,
+      .search-bar,
+      .movie-all-data2,
+      .top-movies,
+      .all-dataa,
+      .search-data,
+      .search-movies,
+      .list-movies,
+      .anime1-movies,
+      .top-india-movies,
+      .signin-button,
+      .start-link,
+      .email-inp,
+      .password-inp,
+      .c-title,
+      .navbar-4,
+      .search-white,
+      .right-scroll,
+      .right-scroll2,
+      .right-scroll3,
+      .right-scroll4,
+      .right-scroll5,
+      .right-btn,
+      .right-btn2,
+      .right-btn3,
+      .right-btn4,
+      .right-btn5,
+      .left-scroll,
+      .left-scroll2,
+      .left-scroll3,
+      .left-scroll4,
+      .left-scroll5,
+      .left-btn,
+      .left-btn2,
+      .left-btn3,
+      .left-btn4,
+      .left-btn5,
+      .now-playing,
+      .trending-movies,
+      .movies-section,
+      .movies-name,
+      .movie-category1,
+      .movie-category2,
+      .movie-category3,
+      .movie-category4,
+      .movie-category5,
+      .play-icon,
+      .right-content,
+      .search-icon,
+      .search-img,
+      .account,
+      .account-img,
+      .category-lists,
+      li,
+      .main-logo,
+      .movie-logo,
+      .swal-icon,
+      .play1,
+      .poster,
+      .browse,
+      .browse-page,
+      .in-data,
+      .avatar-name,
+      .watching,
+      .avatar,
+      .swal-icon--success__ring,
+      .swal-icon--success__hide-corners,
+      .swal-icon--success__line,
+      .swal-icon--success__line--long,
+      .swal-icon--success__line,
+      .swal-icon--success__line--tip,
+      .swal-icon--warning__dot,
+      .swal-icon--warning,
+      .swal-icon--warning__body,
+      .swal-overlay,
+      .swal-overlay--show-modal,
+      .swal-title,
+      .swal-text,
+      .swal-footer,
+      .swal-button-container,
+      .swal-button,
+      .swal-button--confirm,
+      .swal-button__loader,
+      .navbar2,
+      .mssg,
+      .Netflix-logo2,
+      .Netflix-logo3,
+      .final-email,
+      .signin-submit,
+      .final-password,
+      .logo2,
+      .logo3,
+      .bg-data,
+      .signin2,
+      .signin-btn2,
+      .signin-link2,
+      .mid-content,
+      .bg-back2,
+      .signin-link3,
+      .content-title,
+      .middle-content,
+      .middle-content2,
+      .content-innerData,
+      .content-innerData2,
+      .steps,
+      .steps2,
+      b,
+      .content-center,
+      .navbar-3,
+      .mid-head,
+      .mid-head2,
+      .mid-desc,
+      .mid-desc2,
+      .signin-txt,
+      .next,
+      .next2,
+      .next-btn,
+      .next-btn2,
+      .membership,
+      .center-content,
+      .get-started,
+      .acc1-data,
+      .acc2-data,
+      .acc3-data,
+      .email-valid,
+      .break,
+      .navbar-2,
+      .acc1,
+      .acc2,
+      .acc3,
+      .acc1-item,
+      .acc2-item,
+      .acc3-item,
+      .right-arrow,
+      .acc1-icon,
+      .acc2-icon,
+      .acc3-icon,
+      .enter-details,
+      .start-btn,
+      .movie-all-data,
+      .movie-title,
+      .two-buttons,
+      .extra-data,
+      .match,
+      .rating,
+      .HD,
+      .movie-desc,
+      .circle-play,
+      .add-list
+    ) {
+    background: black !important;
+  }
+
+  /* .navbar-2 {
+    background-color: #ffffff00 !important;
+  } */
+
+  .email-inp,
+  .password-inp {
+    width: 90vw;
+    background: #333 !important;
+  }
+  .container1 {
+    width: auto;
+    height: 540px;
+  }
+  .Netflix-logo {
+    margin-left: 23px;
+    width: 140px;
+  }
+  .signin-head {
+    text-align: left;
+  }
+  .help-section {
+    padding: 10px;
+    justify-content: space-between;
+  }
+  .new-to-netflix {
+    padding: 10px;
+    margin-left: 0px;
+  }
+  .signin-button {
+    width: 92vw;
+    background-color: #e50914 !important;
+  }
+  .error-message {
+    margin-left: 10px;
+  }
+}
+
+/* SIGNUP CSS */
+
+.navbar-2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.signin-link,
+.signin-link2 {
+  color: white;
+  text-decoration: none;
+}
+
+.signin-btn,
+.signin-btn2 {
+  cursor: pointer;
+  width: 95px;
+  border: none;
+  padding: 8px;
+  margin-top: 30px;
+  margin-right: 55px;
+  font-size: 18px;
+  font-family: sans-serif;
+  border-radius: 2px;
+  color: white;
+  box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.75);
+  background-color: #e50914 !important;
+  transition: all 0.3s;
+}
+
+.signin-btn2:hover {
+  background-color: #b3040d !important;
+}
+
+.mid-content {
+  color: white;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-title {
+  max-width: 64%;
+  font-size: 59px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.content-center {
+  font-size: 26px;
+  margin-top: 12px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.membership {
+  font-size: 20px;
+  margin-top: 34px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+
+.enter-details {
+  height: 45px;
+  border: none;
+  font-size: 16px;
+  color: black;
+  width: 500px;
+  padding: 8px;
+  background: #ffffff !important;
+  margin-top: 30px;
+}
+
+.get-started {
+  display: flex;
+  align-items: center;
+}
+
+.start-btn {
+  cursor: pointer;
+  height: 61px;
+  width: 215px;
+  border: none;
+  padding: 8px;
+  margin-top: 31px;
+  font-size: 28px;
+  font-family: sans-serif;
+  font-weight: 500;
+  color: white;
+  box-shadow: 0px 1px 1px rgba(50, 50, 50, 0.75);
+  background-color: #e50914 !important;
+  transition: all 0.3s;
+}
+
+.start-link {
+  background-color: #e5091400 !important;
+  color: white;
+  text-decoration: none;
+}
+
+.start-btn:hover {
+  background-color: #b3040d !important;
+}
+
+.section-data1,
+.section-title,
+.section-desc,
+.inside1 {
+  background-color: black !important;
+}
+
+.section-data2,
+.section-title2,
+.section-desc2,
+.inside2 {
+  background-color: black !important;
+}
+
+.section-data3,
+.section-title3,
+.section-desc3,
+.inside3 {
+  background-color: black !important;
+}
+
+.section-data4,
+.section-title4,
+.section-desc4,
+.inside4 {
+  background-color: black !important;
+}
+
+.below-section1 {
+  color: white;
+  margin-top: 150px;
+  height: 500px;
+  background-color: black !important;
+  border-top: 8px solid rgb(48, 48, 48);
+}
+
+.below-section2,
+.below-section3,
+.below-section4 {
+  color: white;
+  height: 500px;
+  background-color: black !important;
+  border-top: 8px solid rgb(48, 48, 48);
+}
+
+.below-section4 {
+  height: 580px !important;
+}
+
+.below-section5 {
+  color: white;
+  height: 650px;
+  background-color: black !important;
+  border-top: 8px solid rgb(48, 48, 48);
+}
+
+.section-data1,
+.section-data2,
+.section-data3,
+.section-data4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inside1,
+.inside2,
+.inside3,
+.inside4 {
+  max-width: 30%;
+}
+
+.section-data4 {
+  margin-top: 70px;
+}
+
+.inside4 {
+  margin-left: 50px;
+}
+
+.section-title,
+.section-title2,
+.section-title3,
+.section-title4 {
+  font-size: 50px;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.section-desc,
+.section-desc2,
+.section-desc3,
+.section-desc4 {
+  font-family: sans-serif;
+  margin-top: 25px;
+  font-size: 28px;
+  text-align: left;
+}
+
+.tv {
+  margin-left: 25px;
+}
+
+.children {
+  width: 480px;
+}
+
+.FAQ,
+.accordions {
+  background-color: black !important;
+  margin-top: 50px;
+}
+.accordions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.FAQ {
+  font-size: 45px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.FAQ-section {
+  margin-top: 70px;
+  background-color: black !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-arrow {
+  background-color: #303030 !important;
+}
+
+.acc1,
+.acc2,
+.acc3 {
+  cursor: pointer;
+  font-size: 26px;
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  justify-content: space-between;
+  height: 30px;
+  font-family: sans-serif;
+  width: 740px;
+  border-radius: 5px;
+  background-color: #303030 !important;
+}
+
+.acc1-icon,
+.acc2-icon,
+.acc3-icon {
+  background-color: #303030 !important;
+  font-size: 40px;
+}
+
+.break {
+  margin-top: 30px;
+  font-size: 22px;
+}
+
+.second {
+  margin-top: 12px;
+}
+
+.acc1-item,
+.acc2-item,
+.acc3-item {
+  width: 728px;
+  text-align: left;
+  font-size: 22px;
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 30px;
+  background-color: #303030 !important;
+}
+
+.new,
+.bottom-data {
+  background-color: black;
+}
+
+.bottom-data {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.acc1-item,
+.acc2-item,
+.acc3-item {
+  position: relative;
+  animation: fadein 0.35s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+    bottom: 30px;
+  }
+  100% {
+    opacity: 1;
+    bottom: 0px;
+  }
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 940px) {
+  .below-section1,
+  .below-section2,
+  .below-section3,
+  .below-section4,
+  .below-section5 {
+    height: 615px;
+  }
+  .section-data1,
+  .section-data2,
+  .section-data3,
+  .section-data4,
+  .section-data5 {
+    flex-direction: column;
+  }
+
+  .device {
+    position: relative;
+    top: 60px;
+    width: 440px;
+  }
+
+  .children {
+    position: relative;
+    top: 15px;
+  }
+  .tv {
+    margin-left: 0px;
+  }
+
+  .section-desc4,
+  .section-desc,
+  .section-desc2,
+  .section-desc3 {
+    max-width: 88%;
+  }
+
+  .section-data2,
+  .section-data4 {
+    flex-direction: column-reverse;
+  }
+
+  .inside4 {
+    margin-left: 0px;
+    position: relative;
+    top: 0px !important;
+  }
+
+  .inside1,
+  .inside2,
+  .inside3,
+  .inside4 {
+    position: relative;
+    top: 80px;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-desc,
+  .section-desc2,
+  .section-desc3,
+  .section-desc4 {
+    text-align: center;
+    z-index: 1;
+    font-size: 18px;
+  }
+
+  .section-title,
+  .section-title2,
+  .section-title3,
+  .section-title4 {
+    font-size: 36px;
+    z-index: 1;
+  }
+}
+
+@media (max-width: 825px) {
+  .acc1,
+  .acc2,
+  .acc3 {
+    width: 600px;
+  }
+  .acc1-item,
+  .acc2-item,
+  .acc3-item {
+    width: 588px;
+  }
+  .enter-details {
+    width: 380px;
+  }
+  .start-btn {
+    font-size: 22px;
+    width: 155px;
+  }
+}
+
+@media (max-width: 670px) {
+  .mobile {
+    width: 400px;
+    position: relative;
+    top: 22px;
+  }
+  .section-title2 {
+    max-width: 85%;
+    text-align: center;
+  }
+  .acc1,
+  .acc2,
+  .acc3 {
+    width: 450px;
+  }
+  .acc1-item,
+  .acc2-item,
+  .acc3-item {
+    width: 436px;
+  }
+
+  .new-mem {
+    max-width: 80%;
+  }
+
+  .content-title {
+    font-size: 50px;
+  }
+
+  .content-center {
+    font-size: 22px;
+  }
+
+  .membership {
+    max-width: 80%;
+  }
+}
+
+@media (max-width: 555px) {
+  .start-btn {
+    font-size: 17px;
+    width: 111px;
+  }
+  .enter-details {
+    width: 280px;
+  }
+
+  .Netflix-logo2 {
+    width: 115px;
+    margin-left: 28px;
+  }
+
+  .signin-btn2 {
+    width: 75px;
+    padding: 7px;
+    margin-right: 29px;
+    font-size: 16px;
+  }
+  .content-title {
+    font-size: 40px;
+  }
+  .content-center {
+    font-size: 18px;
+  }
+  .membership {
+    font-size: 18px;
+  }
+  .tv {
+    width: 380px;
+    position: relative;
+    top: 50px;
+  }
+}
+
+@media (max-width: 512px) {
+  .acc1,
+  .acc2,
+  .acc3 {
+    font-size: 19px;
+    width: 350px;
+  }
+  .acc1-item,
+  .acc2-item,
+  .acc3-item {
+    width: 336px;
+    font-size: 18px;
+  }
+  .break {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 485px) {
+  .children {
+    position: relative;
+    top: 34px;
+    width: 380px;
+  }
+  .section-title,
+  .section-title2,
+  .section-title3,
+  .section-title4 {
+    font-size: 30px;
+    max-width: 92%;
+  }
+  .section-desc,
+  .section-desc2,
+  .section-desc3,
+  .section-desc4 {
+    font-size: 15px;
+  }
+  .device {
+    top: 75px;
+    width: 410px;
+  }
+}
+
+@media (max-width: 415px) {
+  .acc1-item,
+  .acc2-item,
+  .acc3-item {
+    width: 263px;
+  }
+  .acc1,
+  .acc2,
+  .acc3 {
+    width: 276px;
+  }
+  .acc1-data,
+  .acc2-data,
+  .acc3-data {
+    text-align: left;
+  }
+  .start-btn {
+    width: 78px;
+  }
+  .enter-details {
+    width: 180px;
+  }
+  .FAQ {
+    font-size: 32px;
+    margin-top: 22px;
+  }
+  .below-section1,
+  .below-section2,
+  .below-section3,
+  .below-section4,
+  .below-section5 {
+    height: 525px;
+  }
+  .tv,
+  .mobile,
+  .device,
+  .children {
+    width: 290px;
+  }
+  .inside1,
+  .inside2,
+  .inside3,
+  .inside4 {
+    top: 60px;
+  }
+  .section-title,
+  .section-title2,
+  .section-title3,
+  .section-title4 {
+    text-align: center;
+  }
+}
+
+@media (max-width: 360px) {
+  .acc1,
+  .acc2,
+  .acc3 {
+    width: 228px;
+  }
+  .acc1-item,
+  .acc2-item,
+  .acc3-item {
+    width: 214px;
+  }
+}
+
+/* Account Creation Page  */
+
+.bg-back2 {
+  height: 100vh;
+  background-color: white;
+}
+
+.watching {
+  color: white;
+  font-family: sans-serif;
+  font-size: 60px;
+  z-index: 1;
+}
+
+.avatar {
+  cursor: pointer;
+  border: 4px solid #141414;
+  border-radius: 8px;
+  width: 170px;
+  margin-top: 40px;
+}
+
+.avatar:hover {
+  border: 4px solid rgba(255, 255, 255, 0.918);
+}
+
+.avatar:hover ~ .avatar-name {
+  color: white;
+}
+
+.app2:not(.App) {
+  overflow-y: hidden;
+  overflow-x: hidden;
+}
+
+.bg-back3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #141414;
+  animation: comeup 0.4s;
+}
+
+@keyframes comeup {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.in-data {
+  animation: zoomout 0.4s;
+}
+
+@keyframes zoomout {
+  0% {
+    opacity: 0;
+    transform: scale(1.12);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.avatar-name {
+  color: rgba(255, 255, 255, 0.519);
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.navbar-3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e6e6e6;
+  height: 106px;
+}
+.signin-txt {
+  color: #333;
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 50px;
+  font-family: sans-serif;
+}
+
+.bg-image {
+  width: 260px;
+}
+
+.steps,
+.steps2 {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.middle-content,
+.middle-content2 {
+  margin-top: 110px;
+}
+
+.mid-head,
+.mid-head2 {
+  margin: 0;
+  font-size: 32px;
+  max-width: 380px;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: #333;
+}
+
+.mid-desc {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: sans-serif;
+  max-width: 290px;
+  color: #333;
+}
+
+.content-innerData,
+.content-innerData2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.next,
+.next2 {
+  cursor: pointer;
+  background-color: #e50914;
+  border: none;
+  padding: 18px;
+  margin-top: 8px;
+  font-size: 28px;
+  border-radius: 4px;
+  width: 340px;
+  transition: all 0.35s;
+}
+
+.next:hover,
+.next2:hover {
+  background-color: #ac0e16;
+}
+
+.next2 {
+  width: 412px;
+  margin-top: 25px;
+}
+
+.next-btn,
+.next-btn2 {
+  color: white;
+  text-decoration: none;
+}
+
+.signin-link3 {
+  color: #333;
+  text-decoration: none;
+}
+
+.middle-content,
+.middle-content2 {
+  animation: fadeein 0.4s linear;
+}
+
+@keyframes fadeein {
+  0% {
+    margin-left: 100px;
+    opacity: 0;
+  }
+  100% {
+    margin-left: 0px;
+    opacity: 1;
+  }
+}
+
+/* PASSWORD PAGE2  */
+
+.middle-content2 {
+  margin-top: 15px;
+  max-width: 50%;
+  text-align: left;
+}
+
+.content-innerData2 {
+  align-items: initial;
+}
+
+.center-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mid-desc2 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  font-family: sans-serif;
+  width: 325px;
+  line-height: 1.8;
+}
+
+.mid-head2 {
+  width: 420px;
+}
+
+.final-email,
+.final-password {
+  padding: 8px;
+  width: 393px;
+  height: 48px;
+  font-family: sans-serif;
+  font-size: 16px;
+  border-radius: 3px;
+  border: 1px solid #8c8c8c !important;
+}
+
+@media (max-width: 500px) {
+  .Netflix-logo3 {
+    width: 120px;
+    margin-top: 4px;
+    margin-left: 29px;
+  }
+}
+
+@media (max-width: 370px) {
+  .bg-image {
+    width: 215px;
+  }
+  .steps {
+    font-size: 12px;
+  }
+  .mid-head {
+    font-size: 25px;
+    max-width: 90%;
+  }
+  .mid-desc {
+    font-size: 16px;
+  }
+  .next {
+    padding: 16px;
+    font-size: 23px;
+    width: 284px;
+  }
+}
+
+@media (max-width: 600px) {
+  .center-content {
+    max-width: 60%;
+  }
+  .steps2 {
+    width: 150px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .center-content {
+    max-width: 35%;
+  }
+}
+
+@media (max-width: 460px) {
+  .center-content {
+    max-width: 45%;
+  }
+
+  .steps2 {
+    font-size: 12px;
+  }
+
+  .mid-head2 {
+    font-size: 27px;
+  }
+
+  .mid-desc2 {
+    font-size: 14px;
+  }
+
+  .final-email,
+  .final-password {
+    width: 326px;
+  }
+  .next2 {
+    width: 344px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 415px) {
+  .mid-head2 {
+    width: 290px;
+  }
+
+  .mid-desc2 {
+    width: 290px;
+  }
+
+  .final-email,
+  .final-password {
+    width: 258px;
+  }
+  .next2 {
+    width: 278px;
+  }
+}
+
+@media (max-width: 330px) {
+  .mid-head2 {
+    width: 240px;
+    font-size: 24px;
+  }
+  .mid-desc2 {
+    width: 235px;
+  }
+  .final-email,
+  .final-password {
+    width: 200px;
+  }
+  .next2 {
+    width: 218px;
+  }
+}
+
+/* BROWSE PAGE   */
+
+.poster {
+  position: relative;
+  bottom: 3vw;
+  max-height: 100%;
+  max-width: 100%;
+  z-index: 0;
+}
+
+.play1 {
+  cursor: pointer;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 1.45vw;
+  padding: 0.7vw;
+  width: 9.8vw;
+  position: relative;
+  bottom: 23vw;
+  border-radius: 0.2vw;
+  left: -39.1vw;
+  border: none;
+  transition: all 0.2s;
+}
+
+.play1:hover {
+  transform: scale(1.1);
+}
+
+.main-logo {
+  width: 4.8vw;
+  margin-left: 2.5vw;
+}
+
+.navbar-4 {
+  position: fixed;
+  background: none;
+  width: 98.5vw;
+  z-index: 600;
+  padding: 0.8vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.category-lists {
+  color: white;
+  list-style: none;
+  display: flex;
+  margin-right: 59.3vw;
+}
+
+.category-lists > li {
+  cursor: pointer;
+  margin-left: 1.52vw;
+  font-size: 0.72vw;
+  font-family: sans-serif;
+}
+
+.right-content {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  right: 6vw;
+}
+
+.account-img {
+  cursor: pointer;
+  position: relative;
+  width: 1.8vw;
+  right: -0.3vw;
+  border-radius: 0.15vw;
+}
+.nav-css {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 2%,
+    rgba(19, 19, 19, 0.825) 100%
+  );
+}
+
+.movies-section {
+  position: relative;
+  bottom: 8vw;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 1) 3%,
+    rgba(20, 20, 20, 1) 100%
+  );
+}
+
+.movie-category1 {
+  display: flex;
+  width: 100%;
+  position: relative;
+  bottom: 14.2vw;
+  padding-left: 3.2vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.movie-category2 {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding-left: 3.2vw;
+  bottom: 26.5vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.movie-category3 {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding-left: 3.2vw;
+  bottom: 38.5vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.movie-category4 {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding-left: 3.2vw;
+  bottom: 50.5vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.movie-category5 {
+  display: flex;
+  width: 100%;
+  position: relative;
+  padding-left: 3.2vw;
+  bottom: 63.8vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.search-data {
+  display: none;
+  grid-template-columns: repeat(4, 20vw);
+  grid-template-rows: repeat(5, 14vw);
+  grid-gap: 10px; /* adjust as needed */
+  width: 100%;
+  height: 100%;
+  margin-top: 4.75vw;
+  justify-content: center;
+  position: relative;
+  bottom: 10vw;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.my-list {
+  display: none;
+  grid-template-columns: repeat(4, 20vw);
+  grid-template-rows: repeat(5, 14vw);
+  grid-gap: 10px; /* adjust as needed */
+  width: 100%;
+  height: 100%;
+  margin-top: 3.8vw;
+  justify-content: center;
+  position: relative;
+  top: 3vw;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+}
+
+.movie-category1::-webkit-scrollbar {
+  width: 0;
+}
+
+.movie-category2::-webkit-scrollbar {
+  width: 0;
+}
+
+.movie-category3::-webkit-scrollbar {
+  width: 0;
+}
+
+.movie-category4::-webkit-scrollbar {
+  width: 0;
+}
+
+.movie-category5::-webkit-scrollbar {
+  width: 0;
+}
+
+.movies-category-01::-webkit-scrollbar {
+  width: 0;
+}
+
+.movies-category-02::-webkit-scrollbar {
+  width: 0;
+}
+
+.movies-category-03::-webkit-scrollbar {
+  width: 0;
+}
+
+.movies-category-04::-webkit-scrollbar {
+  width: 0;
+}
+
+.search-data::-webkit-scrollbar {
+  width: 0;
+}
+
+.my-list::-webkit-scrollbar {
+  width: 0;
+}
+
+.now-playing > img,
+.trending-movies > img,
+.top-movies > img,
+.anime1-movies > img,
+.top-india-movies > img {
+  border-radius: 0.3vw;
+  margin-left: 0.25vw;
+  margin-right: 0.25vw;
+  margin-top: 3.55vw;
+  margin-bottom: 2.25vw;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 16vw;
+}
+
+.search-movies > img {
+  border-radius: 0.3vw;
+  margin-left: 0.25vw;
+  margin-right: 0.25vw;
+  margin-top: 3.55vw;
+  margin-bottom: 2.25vw;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 18.8vw;
+}
+
+.list-movies > img {
+  border-radius: 0.3vw;
+  margin-left: 0.25vw;
+  margin-right: 0.25vw;
+  margin-top: 3.55vw;
+  margin-bottom: 2.25vw;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  width: 18.8vw;
+}
+
+.now-playing,
+.top-movies,
+.trending-movies,
+.anime1-movies,
+.top-india-movies,
+.search-movies,
+.list-movies {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.now-playing:hover,
+.trending-movies:hover,
+.top-movies:hover,
+.anime1-movies:hover,
+.top-india-movies:hover,
+.search-movies:hover,
+.list-movies:hover {
+  position: relative;
+  z-index: 40;
+  transform: scale(1.3);
+}
+
+.now-playing:hover .movie-all-data,
+.trending-movies:hover .movie-all-data,
+.top-movies:hover .movie-all-data,
+.anime1-movies:hover .movie-all-data,
+.top-india-movies:hover .movie-all-data,
+.search-movies:hover .movie-all-data2,
+.list-movies:hover .movie-all-data2 {
+  opacity: 1;
+  visibility: visible;
+}
+
+.left-btn {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: -4.5vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+
+.left-btn2 {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 13vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+
+.left-btn3 {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 30.8vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+
+.left-btn4 {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 48.6vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+
+.left-btn5 {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 66vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+
+.right-btn {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: -3.7vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+
+.right-btn2 {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 13.8vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+
+.right-btn3 {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 31.4vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+
+.right-btn4 {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 49.3vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+
+.right-btn5 {
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 66.8vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+
+.search-white {
+  cursor: pointer;
+  position: relative;
+  cursor: pointer;
+  right: -8.2vw;
+  filter: invert(1);
+  width: 1.2vw;
+  height: 100%;
+  margin-right: 2vw;
+  transition: all 0.25s;
+}
+
+.app4 {
+  overflow-x: hidden;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(20, 20, 20, 1) 63%
+  );
+}
+
+.c-title {
+  position: relative;
+  z-index: 10;
+  color: white;
+  width: 25vw;
+}
+
+.category-title1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 10vw;
+  left: 3.5vw;
+}
+
+.category-title2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 22.5vw;
+  left: 3.5vw;
+}
+
+.category-title3 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 34.5vw;
+  left: 3.5vw;
+}
+
+.category-title4 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 46.5vw;
+  left: 3.5vw;
+}
+
+.category-title5 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 60vw;
+  left: 3.5vw;
+}
+
+.movie-title {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 700;
+  font-size: 0.8vw;
+  color: white;
+}
+
+.movie-all-data {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #1f1f1f;
+  border-bottom-right-radius: 0.3vw;
+  border-bottom-left-radius: 0.3vw;
+  font-size: 0.68vw;
+  padding: 0.4vw;
+  bottom: 4.7vw;
+  opacity: 0;
+  transition: all 0.28s;
+  transform: scale(0.969);
+  visibility: hidden;
+}
+.movie-all-data2 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #1f1f1f;
+  border-bottom-right-radius: 0.3vw;
+  border-bottom-left-radius: 0.3vw;
+  font-size: 0.68vw;
+  padding: 0.4vw;
+  bottom: 4.7vw;
+  left: 0.25vw;
+  width: 18.7vw;
+  opacity: 0;
+  transition: all 0.28s;
+  transform: scale(0.969);
+  visibility: hidden;
+}
+
+.extra-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.match {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bolder;
+  color: rgb(6, 190, 6);
+}
+
+.rating {
+  color: white;
+  padding: 0.2vw;
+  font-size: 0.6vw;
+  border-radius: 0.1vw;
+  margin-left: 0.7vw;
+  margin-right: 0.3vw;
+  height: 100%;
+
+  border: 1px solid white;
+}
+
+.HD {
+  width: 1.3vw;
+  color: white;
+  padding: 0.2vw;
+  font-size: 0.6vw;
+  border-radius: 0.1vw;
+  font-weight: bolder;
+  margin-left: 0.3vw;
+  margin-right: 0.3vw;
+  height: 100%;
+
+  border: 1px solid white;
+}
+
+.movie-desc {
+  color: white;
+  text-align: left;
+  margin-top: 0;
+}
+
+.two-buttons {
+  display: flex;
+  cursor: pointer;
+}
+
+.circle-play,
+.add-list {
+  margin-top: 0.4vw;
+  width: 1.8vw;
+}
+
+.add-list {
+  margin-left: 0.4vw;
+}
+
+.search-bar {
+  cursor: pointer;
+  height: 1.8vw;
+  border-radius: 0.18vw;
+  position: relative;
+  width: 12vw;
+  right: 4.3vw;
+  opacity: 0;
+  transition: all 0.25s;
+  padding-left: 0.6vw;
+  padding-right: 0.6vw;
+  font-family: sans-serif;
+  font-size: 0.85vw;
+  color: white;
+  background-color: #5a5a5a54;
+}
+
+.search-icon {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 11vw;
+}
+
+.App::-webkit-scrollbar {
+  display: none;
+}
+
+.movies-section,
+.all-dataa {
+  height: 100vh;
+}
+
+.category-lists > li {
+  color: rgba(255, 255, 255, 0.742);
+}
+
+.category-lists > li:hover {
+  color: white !important;
+}
+
+.home {
+  color: white !important;
+}
+
+.list-name {
+  display: none;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2.2vw;
+  position: relative;
+  top: 8vw;
+  text-align: left;
+  left: 9.5vw;
+}
+
+.empty {
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  position: relative;
+  left: 26vw;
+  top: 12vw;
+  width: 30vw;
+}
+
+.movie-category1,
+.movie-category2,
+.movie-category3,
+.movie-category4,
+.movie-category5,
+.left-scroll,
+.right-scroll,
+.left-scroll2,
+.right-scroll2,
+.left-scroll3,
+.right-scroll3,
+.left-scroll4,
+.right-scroll4,
+.left-scroll5,
+.right-scroll5,
+.c-title,
+.movies-category-01,
+.movies-category-02,
+.new-leftbtn-01,
+.new-leftbtn-02,
+.new-leftbtn-03,
+.new-leftbtn-04,
+.new-rightbtn-01,
+.new-rightbtn-02,
+.new-rightbtn-03,
+.new-rightbtn-04,
+.new-title01,
+.new-title02,
+.new-title03,
+.movies-category-03,
+.movies-category-04 {
+  animation: newfade 0.32s;
+}
+
+@keyframes newfade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+/* Button Adjust  */
+
+.movies-category-01 {
+  display: none;
+  width: 100%;
+  position: relative;
+  bottom: 13.8vw;
+  padding-left: 3.2vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.movies-category-02 {
+  display: none;
+  width: 100%;
+  position: relative;
+  bottom: 27.2vw;
+  padding-left: 3.2vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.movies-category-03 {
+  display: none;
+  width: 100%;
+  position: relative;
+  bottom: 40.6vw;
+  padding-left: 3.2vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.movies-category-04 {
+  display: none;
+  width: 100%;
+  position: relative;
+  bottom: 52.8vw;
+  padding-left: 3.2vw;
+  overflow-y: hidden;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.new-leftbtn-01 {
+  display: none;
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: -4vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+
+.new-leftbtn-02 {
+  display: none;
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 12.2vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+
+.new-leftbtn-03 {
+  display: none;
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 29.2vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+
+.new-leftbtn-04 {
+  display: none;
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 47.8vw;
+  left: 0.5vw;
+  width: 2.5vw;
+  z-index: 50;
+}
+.new-rightbtn-01 {
+  display: none;
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: -3.2vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+.new-rightbtn-02 {
+  display: none;
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 13vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+.new-rightbtn-03 {
+  display: none;
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 30.5vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+.new-rightbtn-04 {
+  display: none;
+  cursor: pointer;
+  filter: invert(1);
+  position: absolute;
+  top: 48.5vw;
+  right: 0.5vw;
+  width: 1.6vw;
+  z-index: 50;
+}
+
+.new-title01 {
+  display: none;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 10vw;
+  left: 3.5vw;
+  z-index: 10;
+  color: white;
+}
+
+.new-title02 {
+  display: none;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 23.3vw;
+  left: 3.5vw;
+  z-index: 10;
+  color: white;
+}
+
+.new-title03 {
+  display: none;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 36.8vw;
+  left: 3.5vw;
+  z-index: 10;
+  color: white;
+}
+
+.new-title04 {
+  display: none;
+  position: relative;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  font-size: 1.4vw;
+  text-align: left;
+  bottom: 49vw;
+  left: 3.5vw;
+  z-index: 10;
+  color: white;
+}
+
+.user-data {
+  display: none;
+  background-color: #252525ce;
+  color: white;
+  position: absolute;
+  right: -2vw;
+  top: 2.3vw;
+  border-radius: 0.1vw;
+  width: 5vw;
+  z-index: 500;
+  font-weight: 600;
+  font-size: 0.9vw;
+}
+
+.signout {
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.signout:hover {
+  color: rgb(255, 0, 0);
+}
+
+hr {
+  opacity: 0.5;
+}
+
+/* FINAL MEDIA QUERIES */
+
+/* HOME */
+
+@media (max-width: 1025px) {
+  .left-btn2 {
+    top: 14.3vw;
+  }
+  .right-btn2 {
+    top: 14.3vw;
+  }
+  .left-btn3 {
+    top: 33vw;
+  }
+  .right-btn3 {
+    top: 33.5vw;
+  }
+  .left-btn4 {
+    top: 53.7vw;
+  }
+  .right-btn4 {
+    top: 54.2vw;
+  }
+  .left-btn5 {
+    top: 71.6vw;
+  }
+  .right-btn5 {
+    top: 72vw;
+  }
+
+  .new-leftbtn-02 {
+    top: 13.6vw;
+  }
+
+  .new-rightbtn-02 {
+    top: 14.2vw;
+  }
+
+  .new-leftbtn-03 {
+    top: 32.2vw;
+  }
+
+  .new-rightbtn-03 {
+    top: 32.8vw;
+  }
+
+  .new-leftbtn-04 {
+    top: 50.8vw;
+  }
+
+  .new-rightbtn-04 {
+    top: 51.3vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .left-btn2 {
+    top: 15.3vw;
+  }
+  .right-btn2 {
+    top: 15.5vw;
+  }
+  .left-btn3 {
+    top: 35.3vw;
+  }
+  .right-btn3 {
+    top: 36vw;
+  }
+  .left-btn4 {
+    top: 53.8vw;
+  }
+  .right-btn4 {
+    top: 54vw;
+  }
+  .left-btn5 {
+    top: 73vw;
+  }
+  .right-btn5 {
+    top: 73.5vw;
+  }
+
+  .new-leftbtn-03 {
+    top: 33.8vw;
+  }
+  .new-rightbtn-03 {
+    top: 34vw;
+  }
+
+  .new-leftbtn-04 {
+    top: 52.8vw;
+  }
+  .new-rightbtn-04 {
+    top: 53.6vw;
+  }
+}
+
+@media (max-width: 555px) {
+  .category-lists {
+    position: relative;
+    top: 0.3vw;
+  }
+
+  .search-white {
+    top: 0.25vw;
+  }
+
+  .search-bar {
+    top: 0.22vw;
+  }
+
+  .user-data {
+    top: 3.5vw;
+  }
+
+  .left-btn2 {
+    top: 15.8vw;
+  }
+  .right-btn2 {
+    top: 16.5vw;
+  }
+  .left-btn3 {
+    top: 37.2vw;
+  }
+  .right-btn3 {
+    top: 37.8vw;
+  }
+  .left-btn4 {
+    top: 56.5vw;
+  }
+  .right-btn4 {
+    top: 56.55vw;
+  }
+  .left-btn5 {
+    top: 77vw;
+  }
+  .right-btn5 {
+    top: 77.25vw;
+  }
+
+  .new-leftbtn-02 {
+    top: 15vw;
+  }
+
+  .new-rightbtn-02 {
+    top: 15.5vw;
+  }
+
+  .new-leftbtn-03 {
+    top: 35.5vw;
+  }
+
+  .new-rightbtn-03 {
+    top: 36vw;
+  }
+
+  .new-leftbtn-04 {
+    top: 55.2vw;
+  }
+
+  .new-rightbtn-04 {
+    top: 56.4vw;
+  }
+}
+
+@media (max-width: 415px) {
+  .left-btn2{
+    top: 17vw;
+  }
+  .right-btn2{
+    top: 17.8vw;
+  }
+
+  .new-leftbtn-02{
+    top: 17.5vw;
+  }
+
+  .new-rightbtn-02{
+    top: 18.3vw;
+  }
+
+  .new-leftbtn-03{
+    top: 39.3vw;
+  }
+
+  .new-rightbtn-03{
+    top: 40vw;
+  }
+
+  .new-leftbtn-04{
+    top: 62.3vw;
+  }
+
+  .new-rightbtn-04{
+    top: 63.4vw;
+  }
+
+
+  .left-btn3{
+    top: 39.2vw;
+  }
+  .right-btn3{
+    top: 39.8vw;
+  }
+  .left-btn4{
+    top: 61.5vw;
+  }
+  .right-btn4{
+    top: 62.1vw;
+  }
+  .left-btn5{
+    top: 83vw;
+  }
+  .right-btn5{
+    top: 84.25vw;
+  }
+}
+
+
+
+@media (max-width: 400px) {
+  .category-lists {
+    top: 0.85vw;
+  }
+  .search-white {
+    top: 1vw;
+  }
+
+  .search-bar {
+    right: 6.2vw;
+    top: 0.8vw;
+  }
+  .user-data {
+    top: 5.2vw;
+  }
+
+  .left-btn2 {
+    top: 17.8vw;
+  }
+  .right-btn2 {
+    top: 18vw;
+  }
+  .left-btn3 {
+    top: 40.5vw;
+  }
+  .right-btn3 {
+    top: 41.2vw;
+  }
+  .left-btn4 {
+    top: 63vw;
+  }
+  .right-btn4 {
+    top: 63.6vw;
+  }
+  .left-btn5 {
+    top: 83.6vw;
+  }
+  .right-btn5 {
+    top: 84.3vw;
+  }
+
+  .new-leftbtn-02 {
+    top: 16.6vw;
+  }
+
+  .new-rightbtn-02 {
+    top: 17.7vw;
+
+  }
+  .new-leftbtn-03 {
+    top: 39.3vw;
+  }
+
+  .new-rightbtn-03 {
+    top: 39.7vw;
+
+  }
+  .new-leftbtn-04{
+    top: 62.6vw;
+  }
+
+  .new-rightbtn-04 {
+    top: 63.2vw;
+
+  }
+}
+
+@media (max-width: 390px) {
+  .left-btn3{
+    top: 41vw;
+  }
+  .right-btn3{
+    top: 41.3vw;
+  }
+  .left-btn5{
+    top: 85vw;
+  }
+  .right-btn5{
+    top: 86vw;
+  }
+  .left-btn4{
+    top:64vw;
+  }
+  .right-btn4{
+    top: 64.6vw;
+  }
+
+  .new-leftbtn-02{
+    top: 17.6vw;
+  }
+
+  .new-rightbtn-02{
+    top: 18.8vw;
+  }
+
+  .new-leftbtn-03{
+    top: 40.5vw;
+  }
+
+  .new-rightbtn-03{
+    top: 41vw;
+  }
+
+  .new-leftbtn-04{
+    top: 63.6vw;
+  }
+
+  .new-rightbtn-04{
+    top: 64.2vw;
+  }
+}
+
+
+@media (max-width: 360px) {
+  .left-btn3{
+    top: 42.5vw;
+  }
+  .right-btn3{
+    top: 42.8vw;
+  }
+  .left-btn4{
+    top: 65vw;
+  }
+  .right-btn4{
+    top: 65.6vw;
+  }
+  .left-btn5{
+    top: 88vw;
+  }
+  .right-btn5{
+    top: 88.5vw;
+  }
+
+  .new-leftbtn-02{
+    top: 18.6vw;
+  }
+
+  .new-rightbtn-02{
+    top: 19.3vw;
+  }
+
+  .new-leftbtn-03{
+    top: 41.5vw;
+  }
+
+  .new-rightbtn-03{
+    top: 42.1vw;
+  }
+
+  .new-leftbtn-04{
+    top: 65vw;
+  }
+
+  .new-rightbtn-04{
+    top: 65.6vw;
+  }
+  
+}
+
+@media (max-width: 320px) {
+  .left-btn2{
+    top: 19vw;
+  }
+  .right-btn2{
+    top: 19vw;
+  }
+  .left-btn3{
+    top: 43.5vw;
+  }
+  .right-btn3{
+    top: 44.2vw;
+  }
+
+  .left-btn4{
+    top: 67.4vw
+  }
+  .right-btn4{
+    top: 67.8vw;
+  }
+  .left-btn5{
+    top: 90.3vw
+  }
+  .right-btn5{
+    top: 91.2vw;
+  }
+
+  .new-leftbtn-02{
+    top: 19.2vw;
+  }
+  .new-rightbtn-02{
+    top: 19.7vw;
+  }
+
+  .new-leftbtn-03{
+    top: 42.5vw;
+  }
+  .new-rightbtn-03{
+    top: 42.2vw;
+  }
+
+  .new-leftbtn-04{
+    top: 67vw;
+  }
+  .new-rightbtn-04{
+    top: 67.5vw;
+  }
+}
