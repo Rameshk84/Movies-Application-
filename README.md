@@ -3,13 +3,6 @@
 
 This project is a Netflix clone made using React JS, Redux and Firebase for authentication. It has all the amazing animations and UI as the original Netflix site. Additionally, it also features sections like Movies and TV shows where users can find a variety of content.
 
-Website link: [Netflix Clone](https://shubho-netflix.netlify.app/)
-
-**Watch Demo**
-
-
-https://user-images.githubusercontent.com/81776711/222100985-959ebf86-0f83-48a8-a0ee-2bb6c5292e7d.mp4
-
 
 ## Features
 
